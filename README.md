@@ -15,13 +15,6 @@ ViewComponentReflex will maintain your component's instance variables between re
 as any element that stimulates a reflex. ViewComponent is inherently state-less, so the key is used to reconcile state to its respective component.
 
 ### Example
-```ruby
-# counter_component.rb
-class CounterComponent < ViewComponentReflex::Component
-  def initialize
-    @count = 0
-  end
-
   def increment
     @count += 1
   end
